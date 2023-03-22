@@ -1,0 +1,623 @@
+body {
+    
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    }
+.container {
+    margin: auto;
+    background-image: url(/8-PetShop/img/Rectangle\ 1.png);
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 1024px;
+    font-family: 'roboto', sans-serif;
+    font-size: 10px;
+}
+.container #left {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 612px;
+    height: 20px;
+}
+#left p {
+    top: 4px;
+    font-family: 'roboto';
+    width: 400px;
+    size: 10px;
+    line-height: 12;
+    color: #F3F3F3;
+}
+
+
+#right {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 1024px;
+    height: 15px;
+    top: 4px;
+    
+}
+#right img {
+    display: inline-flex;
+    width: 12px;
+    height: 12px;
+    margin-right: 35px;
+    line-height: 12px;
+
+}
+#right a {
+    color: #F3F3F3;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+}
+
+
+
+header #container {
+    background-image: url(/8-PetShop/img/Rectangle\ 3.png);
+    display: flex;
+    flex-wrap: wrap;
+    height: 62px;
+    width: 1024px;
+    top: 42px;
+    margin: auto;
+    font-family: 'roboto';
+}
+
+header #left {
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+header #right {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height: 62px;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.bowl-and-pet-daities-on-green-background  {
+    background-image: url(/8-PetShop/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    margin: auto;
+    width: 1024px;
+    height: 409px;
+    top: 61px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.bowl-and-pet-daities-on-green-background h2 {
+
+    
+    padding: 10px;
+    box-sizing: border-box;
+    width: 365px;
+    height: 54px;
+    top: 237px;
+    left: 648px;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'roboto';
+    line-height: 35.16px;
+    float: left;
+    width: 36%;
+    display: inline-flex;
+    margin-left: 600px;
+
+}
+
+.bowl-and-pet-daities-on-green-background h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: inline-flex;
+    margin-left: 600px;
+}
+
+.bowl-and-pet-daities-on-green-background p {
+    box-sizing: border-box;
+    height: 49px;
+    width: 141px;
+    left: 767px;
+    top: 334px;
+    border-radius: 5px;
+    background: #F0A83E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 600px;
+}
+
+.pawprint {
+    display: flex;
+    box-sizing: border-box ;
+    width: 1024px;
+    height: 560px;
+    background-color:#E5E5E5;
+    margin:  auto; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pawprint img {
+    
+    height: 71px;
+    width: 67px;
+    justify-content: center;
+    align-items: center;
+    color: #F0A83E;
+    
+}
+
+.pawprint h1 {
+    width: 406px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+
+}
+.pawprint h2 {
+    width: 406px;
+    height: 65px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #666666;
+    margin-top: -70px;  
+}
+
+.pawprint .imagenes {
+    display: flex;
+    margin: auto;
+    grid-column-gap: 10px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+.pawprint .imagenes .churrasquito {
+    height: 268px;
+    width: 268px; 
+    margin-top: -150px;
+}
+.pawprint .imagenes .churrasquito img {
+    height: 268px;
+    width: 268px;
+}
+.pawprint .imagenes .churrasquito p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #666666;
+    margin-top: -60px;
+
+}
+
+.pawprint .imagenes .comedero {
+    height: 268px;
+    width: 268px;
+    margin-top: -150px;
+}
+.pawprint .imagenes .comedero img {
+    height: 268px;
+    width: 268px;
+}
+.pawprint .imagenes .comedero p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -60px;
+}
+.pawprint .imagenes .huesito {
+    margin-top: -150px;
+    height: 268px;
+    width: 268px;
+    position: relative;
+}
+
+.pawprint .imagenes .huesito img {
+    height: 268px;
+    width: 268px;
+}
+.pawprint .imagenes .huesito p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -60px;
+}
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    height: 370px;
+    background-color:#E5E5E5;
+    margin:  auto;
+
+    
+}
+
+.contactanos h1 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+
+}
+
+
+.contactanos .input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color:  #3C2313;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.8);
+    transition: 300ms ease-in-out;
+    width: 340px;
+    height: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #D6D7D9;
+    
+}
+
+.contactanos  .input:focus {
+    background-color: #3f1b1b;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #787575,
+                -13px -13px 100px #ffffff;
+}
+
+.contactanos .botones button {
+    margin: 15px;
+    margin-top: 30px;
+    height: 34px;
+    width: 110px;
+    border-radius: 15px;
+    background: #8A8787;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', cursive;
+    border: none;
+    font-size: 16px;
+    color: rgb(23, 16, 16);
+    transition: 500ms;
+    cursor: pointer;
+    
+}
+.contactanos .botones .resetear {
+    background: #F0A83E;
+    cursor: pointer;
+
+}
+
+.contactanos .botones button:hover {
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    color: #110b0b;
+    transition: 500ms;
+}
+
+.suscripcion {
+    display: flex;
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 60px;
+    margin: auto;
+}
+.suscripcion p {
+    font-family: 'roboto',  sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.suscripcion img {
+    margin-right: 10px;
+}
+
+.suscripcion .input-container {
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 370px;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);
+    margin-left: 220px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.suscripcion  .input-container input {
+    height: 40px;
+    width: 340px;
+    border-radius: 15px;
+    border: #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(69 90 100);
+    outline: none;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.suscripcion  .invite-btn {
+    position: absolute;
+    width: 90px;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    z-index: 10;
+    border-radius: 15px;
+    background-color: #F0A83E;
+    color: #fff;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    transition: .6s ease;
+    cursor: pointer;
+}
+
+.suscripcion .invite-btn:hover {
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    border-radius: 15px;
+}
+
+.suscripcion .input-container input:placeholder-shown ~ .invite-btn {
+    pointer-events: none;
+    background-color: #F0A83E;
+    opacity: 0.5;
+}
+
+.footer {
+    background: #3C2313;
+    height: 284px;
+    width: 1024px;
+    top: -15px;
+    margin: auto;
+    position: relative; 
+    font-family: Roboto;
+    color: #ffffff;
+    
+    
+}
+.footer .icon-localizador {
+    position: absolute;
+    font-family: "roboto";
+    color: white
+
+}    
+.footer .icon-localizador .icon1 img{
+    position: absolute;
+    height: 66px;
+    width: 66px;
+    left: 70px;
+    top: 23px;
+    border-radius: 50px;
+}
+.footer .icon-localizador .icon1 h1 {
+    position: relative;
+    height: 23px;
+    width: 88px;
+    left: 161px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+.footer .icon-localizador .icon1 p {
+    position: relative;
+    height: 12px;
+    width: 73px;
+    left: 161px;
+    top: 0px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8A8787;
+
+}
+.footer .icon-localizador .icon2 img{
+    position: absolute;
+    height: 66px;
+    width: 66px;
+    left: 70px;
+    top: 109px;
+    border-radius: 50px;
+}
+.footer .icon-localizador .icon2 h1 {
+    position: relative;
+    height: 23px;
+    width: 88px;
+    left: 161px;
+    top: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+.footer .icon-localizador .icon2 p {
+    position: relative;
+    height: 12px;
+    width: 100px;
+    left: 161px;
+    top: 25px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+    text-align: left;
+    color: #8A8787;
+}
+
+footer .icon-localizador .icon3 img{
+    position: absolute;
+    height: 66px;
+    width: 66px;
+    left: 70px;
+    top: 199px;
+    border-radius: 50px;
+}
+.footer .icon-localizador .icon3 h1 {
+    position: relative;
+    height: 23px;
+    width: 200px;
+    left: 161px;
+    top: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+.footer .icon-localizador .icon3 p {
+    position: relative;
+    height: 12px;
+    width: 100px;
+    left: 161px;
+    top: 50px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+    text-align: left;
+    color: #8A8787;
+}
+
+.footer .logo-conteiner .front {
+    position: relative;;
+    height: 23px;
+    width: 57px;
+    left: 805px;
+    top: 129.5px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}    
+.footer .logo-conteiner .dogcat {
+    position: relative;
+    height: 23px;
+    width: 96.13097381591797px;
+    left: 853.848876953125px;
+    top: 58.4px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+    
+.footer .logo-conteiner  .gatito1 {
+    position: relative;
+    height: 17px;
+    left: 765px;
+    width: 57px;
+    top: 95px;
+    
+}
+
+.footer .logo-conteiner  .gatito2 {
+    position: relative;
+    height: 17px;
+    left: 915px;
+    width: 57px;
+    top: 25px;
+    
+}
+.copyright {
+    position: absolute;
+    height: 20px;
+    width: 1024px;
+    left: 0px;
+    top: 284px;
+    background: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+    font-weight: 700;
+    line-height: 9px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+}
